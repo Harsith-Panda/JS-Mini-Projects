@@ -1,0 +1,24 @@
+h1 {
+    justify-self: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.obj {
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 144px;
+    width: 25%;
+}
+
+.result {
+    justify-self: center;
+}
+
+.res {
+    font-size: 70px;
+}
