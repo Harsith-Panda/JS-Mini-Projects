@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theme Switcher</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .colors {
+            display: flex;
+            flex-direction: row;
+            height: 480px;
+            width: 500px;
+            row-gap: 10px;
+            column-gap: 10px;
+            flex-wrap: wrap;
+        }
+        .cls {
+            /* box-sizing: border-box; */
+            height: 150px;
+            width: 150px;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+        }
+        .cl1 {
+            background-color: red;
+        }
+        .cl2 {
+            background-color: grey;
+        }
+        .cl3 {
+            background-color: yellow;
+        }
+        .cl4 {
+            background-color: olive;
+        }
+        .cl5 {
+            background-color: white;
+        }
+        .bg-cl{
+            background-color: #fff;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="bg-cl">
+    <div class="colors">
+        <div class="cl1 cls"></div>
+        <div class="cl2 cls"></div>
+        <div class="cl3 cls"></div>
+        <div class="cl4 cls"></div>
+        <div class="cl5 cls"></div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
